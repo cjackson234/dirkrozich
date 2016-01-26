@@ -1,0 +1,65 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Roles/f:Delete.cshtml" caret="0" fromTop="0" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Roles/f:Create.cshtml" caret="0" fromTop="0" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Roles/f:_CreateOrEdit.cshtml" caret="0" fromTop="0" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Users/f:Index.cshtml" caret="48" fromTop="0" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Models/f:RozichMuralsWebContext.cs" caret="1532" fromTop="24" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Controllers/f:UsersController.cs" caret="251" fromTop="11" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Controllers/f:CategoriesController.cs" caret="204" fromTop="9" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/f:Web.config" caret="986" fromTop="14" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Content/f:Site.css" caret="9514" fromTop="45" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Images/f:Create.cshtml" caret="201" fromTop="8" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Albums/f:Create.cshtml" caret="95" fromTop="6" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Controllers/f:RolesController.cs" caret="385" fromTop="14" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Albums/f:Edit.cshtml" caret="133" fromTop="8" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Albums/f:_CreateOrEdit.cshtml" caret="1467" fromTop="22" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Controllers/f:AccountController.cs" caret="0" fromTop="0" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Images/f:Edit.cshtml" caret="0" fromTop="0" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Models/f:ImageModel.cs" caret="151" fromTop="1" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Models/f:AlbumRepository.cs" caret="704" fromTop="15" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Images/f:_CreateOrEdit.cshtml" caret="740" fromTop="17" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Controllers/f:AlbumsController.cs" caret="2581" fromTop="89" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Home/f:Illustration.cshtml" caret="1299" fromTop="12" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Models/f:ImageRepository.cs" caret="758" fromTop="18" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Controllers/f:HomeController.cs" caret="1400" fromTop="10" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Shared/f:_LayoutHome.cshtml" caret="1446" fromTop="23" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Shared/f:_Layout.cshtml" caret="2274" fromTop="24" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Images/f:Index.cshtml" caret="394" fromTop="25" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Images/f:Annoyed.cshtml" caret="386" fromTop="19" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Controllers/f:ImagesController.cs" caret="1055" fromTop="24" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Home/f:Murals.cshtml" caret="745" fromTop="4" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Models/f:ImageModel.cs" caret="1166" fromTop="16" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Migrations/f:Configuration.cs" caret="355" fromTop="11" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Controllers/f:AccountController.cs" caret="6785" fromTop="29" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Models/f:User.cs" caret="1368" fromTop="48" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Models/f:UserRepository.cs" caret="280" fromTop="10" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Models/f:Role.cs" caret="117" fromTop="3" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Models/f:RoleRepository.cs" caret="1639" fromTop="57" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Models/f:RozichMuralsWebContext.cs" caret="216" fromTop="10" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Roles/f:Index.cshtml" caret="59" fromTop="0" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/f:Web.config" caret="899" fromTop="12" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Controllers/f:RolesController.cs" caret="251" fromTop="11" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Controllers/f:UsersController.cs" caret="251" fromTop="11" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Controllers/f:CategoriesController.cs" caret="204" fromTop="9" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Content/f:Site.css" caret="9410" fromTop="29" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Models/f:AlbumRepository.cs" caret="1234" fromTop="29" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Albums/f:Create.cshtml" caret="498" fromTop="26" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Images/f:Edit.cshtml" caret="123" fromTop="8" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Albums/f:Edit.cshtml" caret="133" fromTop="8" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Controllers/f:AlbumsController.cs" caret="2650" fromTop="13" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Albums/f:_CreateOrEdit.cshtml" caret="1467" fromTop="22" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Images/f:_CreateOrEdit.cshtml" caret="731" fromTop="25" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Home/f:Illustration.cshtml" caret="1603" fromTop="17" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Models/f:ImageRepository.cs" caret="809" fromTop="16" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Controllers/f:HomeController.cs" caret="1400" fromTop="10" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Home/f:Murals.cshtml" caret="1754" fromTop="19" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Shared/f:_LayoutHome.cshtml" caret="1446" fromTop="23" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Shared/f:_Layout.cshtml" caret="2274" fromTop="24" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Images/f:Index.cshtml" caret="394" fromTop="13" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Views/d:Images/f:Annoyed.cshtml" caret="386" fromTop="19" />
+    <File id="C538A0FE-C2FA-4156-A3A5-2EE22F9A68D6/d:Controllers/f:ImagesController.cs" caret="1055" fromTop="24" />
+  </RecentEdits>
+</RecentFiles>

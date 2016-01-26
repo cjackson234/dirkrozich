@@ -1,0 +1,64 @@
+﻿@model RozichMurals.Web.Helpers.Contact
+@{ 
+    Layout = "~/Views/Shared/_Layout.cshtml"; 
+}
+@section HeaderContent
+    {
+    <div style="text-align: center;" >
+        <img src="/Content/Images/2012_contactHDR.png" /></div>
+}
+@section head
+{
+    <style type="text/css">
+     fieldset input[type="text"] {
+         border:#a56554 3px solid
+     }
+     fieldset textarea {
+         border: #a56554 3px solid;
+         width: 350px;
+         height: 250px;
+     }
+</style>
+}
+
+
+<div style="float:left; position:relative; z-index: 2">
+    @using (Html.BeginForm()) { 
+        @Html.ValidationSummary(true) 
+        <fieldset> 
+            
+            
+            <div class="editor-field"> 
+                @Html.TextBoxFor(model => model.Name) <br />
+                @Html.ValidationMessageFor(model => model.Name) 
+            </div> 
+            <div class="editor-label"> 
+                @Html.LabelFor(model => model.Name) 
+            </div> 
+            
+            <div class="editor-field"> 
+                @Html.TextBoxFor(model => model.Email) <br />
+                @Html.ValidationMessageFor(model => model.Email) 
+            </div> 
+            <div class="editor-label"> 
+                @Html.LabelFor(model => model.Email) 
+            </div> 
+            <br/>
+            <div class="editor-label"> 
+                @Html.LabelFor(model => model.Comment) 
+            </div> 
+            <div class="editor-field"> 
+                @Html.EditorFor(model => model.Comment) <br />
+                @Html.ValidationMessageFor(model => model.Comment) 
+            </div> 
+            <p style="margin-left:115px; cursor:pointer"> 
+                <button type="submit" style="border: 0; background: transparent">
+                    <img src="/Content/Images/esubmit.png" />
+                </button> 
+            </p> 
+        </fieldset> 
+    }
+</div>
+<div style="top:-40px;right:30px; position:absolute; z-index: 1">
+    <img src="/Content/Images/2012_contactIMAGE.png" />
+</div>

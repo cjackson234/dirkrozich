@@ -1,0 +1,26 @@
+E:\Projects\Personal\ImageGallery\ImageGallery\bin\RozichMurals.Web.dll
+E:\Projects\Personal\ImageGallery\ImageGallery\bin\RozichMurals.Web.pdb
+E:\Projects\Personal\ImageGallery\ImageGallery\bin\EntityFramework.dll
+E:\Projects\Personal\ImageGallery\ImageGallery\bin\Microsoft.Web.Optimization.dll
+E:\Projects\Personal\ImageGallery\ImageGallery\bin\EntityFramework.xml
+E:\Projects\Personal\ImageGallery\ImageGallery\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\Personal\ImageGallery\ImageGallery\obj\Debug\RozichMurals.Web.dll
+E:\Projects\Personal\ImageGallery\ImageGallery\obj\Debug\RozichMurals.Web.pdb
+E:\Dirk 2012\ImageGallery\bin\RozichMurals.Web.dll
+E:\Dirk 2012\ImageGallery\bin\RozichMurals.Web.pdb
+E:\Dirk 2012\ImageGallery\bin\EntityFramework.dll
+E:\Dirk 2012\ImageGallery\bin\Microsoft.Web.Optimization.dll
+E:\Dirk 2012\ImageGallery\bin\EntityFramework.xml
+E:\Dirk 2012\ImageGallery\obj\Debug\RozichMurals.Web.dll
+E:\Dirk 2012\ImageGallery\obj\Debug\RozichMurals.Web.pdb
+E:\Dirk 2012\ImageGallery\obj\Debug\RozichMurals.Web.csprojResolveAssemblyReference.cache
+E:\Dirk 2012\ImageGallery\bin\Altairis.Web.Security.dll
+F:\Dropbox\Web Development\Dirk 2012\ImageGallery\bin\RozichMurals.Web.dll
+F:\Dropbox\Web Development\Dirk 2012\ImageGallery\bin\RozichMurals.Web.pdb
+F:\Dropbox\Web Development\Dirk 2012\ImageGallery\bin\Altairis.Web.Security.dll
+F:\Dropbox\Web Development\Dirk 2012\ImageGallery\bin\EntityFramework.dll
+F:\Dropbox\Web Development\Dirk 2012\ImageGallery\bin\Microsoft.Web.Optimization.dll
+F:\Dropbox\Web Development\Dirk 2012\ImageGallery\bin\EntityFramework.xml
+F:\Dropbox\Web Development\Dirk 2012\ImageGallery\obj\Debug\RozichMurals.Web.csprojResolveAssemblyReference.cache
+F:\Dropbox\Web Development\Dirk 2012\ImageGallery\obj\Debug\RozichMurals.Web.dll
+F:\Dropbox\Web Development\Dirk 2012\ImageGallery\obj\Debug\RozichMurals.Web.pdb

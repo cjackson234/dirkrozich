@@ -1,0 +1,35 @@
+@model IEnumerable<RozichMurals.Web.Models.Role>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th></th>
+        <th>
+            Users
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.RoleName }) |
+            @Html.ActionLink("Details", "Details", new { id=item.RoleName }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.RoleName })
+        </td>
+        <td>
+			@(item.Users == null ? "None" : item.Users.Count.ToString())
+        </td>
+    </tr>
+}
+
+</table>
+
+

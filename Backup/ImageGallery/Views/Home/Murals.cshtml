@@ -1,0 +1,55 @@
+﻿@using RozichMurals.Web.Models
+@model IEnumerable<RozichMurals.Web.Models.Album>
+@{
+    ViewBag.Title = "Murals";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section HeaderContent
+    {
+    <center>
+        <img src="/Content/Images/murals.png" /></center>
+}
+@section head
+{
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("img.lazy").lazyload();
+            $("a.grouped_elements").fancybox({
+                prevEffect: 'none',
+                nextEffect: 'none',
+                closeBtn: false,
+                helpers: {
+                    title: { type: 'inside' },
+                    buttons: {}
+                }
+            });
+        });
+
+    </script>
+}
+<div style="clear: both"></div>
+<div>
+    @foreach (Album thumb in Model.Where(t => t.Images.Count > 0 && t.CategoryId == 1))
+    {
+        <div class="thumbs">
+            <div class="inner">
+                <a class="grouped_elements" rel="@thumb.Id" title="@thumb.Images.OrderBy(i=>i.OrderNumber).FirstOrDefault().Description" href="@Url.Content("~/Content/uploadedimages/" + thumb.Images.OrderBy(i => i.OrderNumber).FirstOrDefault().Path)">
+                    <img class="lazy" src='@Url.Content("/Content/uploadedimages/" + thumb.ThumbImage)' data-original="img/example.jpg" />
+                </a>
+                <div class="desc">
+                <div class="center" style="text-align: center; width:200px;">
+                    @thumb.Name</div>
+                    <div class="center" style="text-align: center; width:200px; ">
+                @thumb.Description</div></div>
+                @foreach (Image c in thumb.Images.Skip(1).OrderBy(i => i.OrderNumber)) {
+                <a class="grouped_elements" rel="@thumb.Id" title="@c.Description" href="@Url.Content("~/Content/uploadedimages/" + c.Path)">
+                    
+                </a>
+                }
+            </div>
+        </div>
+        
+    }
+</div>

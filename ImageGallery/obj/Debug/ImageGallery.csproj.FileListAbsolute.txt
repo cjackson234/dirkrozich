@@ -1,0 +1,8 @@
+E:\Projects\Personal\ImageGallery\ImageGallery\bin\ImageGallery.dll
+E:\Projects\Personal\ImageGallery\ImageGallery\bin\ImageGallery.pdb
+E:\Projects\Personal\ImageGallery\ImageGallery\bin\EntityFramework.dll
+E:\Projects\Personal\ImageGallery\ImageGallery\bin\EntityFramework.xml
+E:\Projects\Personal\ImageGallery\ImageGallery\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\Personal\ImageGallery\ImageGallery\obj\Debug\ImageGallery.dll
+E:\Projects\Personal\ImageGallery\ImageGallery\obj\Debug\ImageGallery.pdb
+E:\Projects\Personal\ImageGallery\ImageGallery\bin\Microsoft.Web.Optimization.dll

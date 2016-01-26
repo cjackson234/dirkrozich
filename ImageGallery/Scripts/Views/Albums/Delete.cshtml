@@ -1,0 +1,32 @@
+@model RozichMurals.Web.Models.Album
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>Album</legend>
+
+    <div class="display-label">Name</div>
+    <div class="display-field">@Model.Name</div>
+
+    <div class="display-label">ThumbImage</div>
+    <div class="display-field">@Model.ThumbImage</div>
+
+    <div class="display-label">Category</div>
+    <div class="display-field">@(Model.Category == null ? "None" : Model.Category.Name)</div>
+
+    <div class="display-label">Images</div>
+    <div class="display-field">@(Model.Images == null ? "None" : Model.Images.Count.ToString())</div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}
+
+

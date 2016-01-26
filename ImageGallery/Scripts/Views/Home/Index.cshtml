@@ -1,0 +1,52 @@
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+
+}
+
+@section HeaderContent
+    {
+    <div style="top: 100px; position: relative">
+        <div id="slides">
+            <div class="slides_container">
+                <div class="slide">
+                    <img src="../../Content/Images/slider/featured_1.png" />
+                </div>
+                <div class="slide">
+                    <img src="../../Content/Images/slider/featured_2.png" />
+                </div>
+                <div class="slide">
+                    <img src="../../Content/Images/slider/featured_1.png" />
+                </div>
+                <div class="slide">
+                    <img src="../../Content/Images/slider/featured_2.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<div id="current_project">
+    <div id="img">
+        <img src="/Content/Images/current_project.png" />
+    </div>
+    <div id="desc">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Read more...
+    </div>
+</div>
+<div id="home_bottom">
+    <div class="links">
+        <a href="/home/Murals">
+            <img src="../../Content/Images/home_btn1.png" /></a><a href="/home/Illustration">
+                <img src="../../Content/Images/home_btn2.png" /></a><a href="#">
+                    <img src="../../Content/Images/home_btn3.png" /></a>
+    </div>
+    <div style="position: relative; top: 130px; left: -33px;">
+        <div class="float-right">
+            <ul id="social">
+                <li><a href="http://facebook.com" class="facebook">Facebook</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

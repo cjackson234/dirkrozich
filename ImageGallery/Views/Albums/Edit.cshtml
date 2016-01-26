@@ -1,0 +1,26 @@
+@model RozichMurals.Web.Models.Album
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm("Edit", "Albums", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Album</legend>
+
+        @Html.HiddenFor(model => model.Id)
+		@Html.Partial("_CreateOrEdit", Model)
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

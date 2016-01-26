@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - Dirk Rozich Murals</title>
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script src="/Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.lazyload.js" type="text/javascript"></script>
+    <script src="/Scripts/slides.min.jquery.js" type="text/javascript"></script>
+    <link href="/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/Home.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/Slide.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width" />
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+            $('img').bind('contextmenu', function (e) {
+                return false;
+            });
+        }); 
+</script>
+</head>
+<body>
+    <div id="toolbar">
+    </div>
+    <div id="home-body-wrapper">
+        <nav>
+            <ul id="menu">
+                <li><a href="/home">Home</a></li>
+                <li><a href="/home/Murals">Murals</a></li>
+                <li><a href="/home/Illustration">Illustration</a></li>
+                <li><a href="/home/InTheStudio">In the studio</a></li>
+                <li><a href="/home/Bio">Bio</a></li>
+                <li><a href="http://www.dsignelixir.com">D'sign Elixir</a></li>
+                <li><a href="/home/InTheMedia">Media</a></li>
+                <li><a href="/home/affiliates">Affiliates</a></li>
+                <li><a href="/home/Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="home-header">
+            @RenderSection("HeaderContent", required: false)
+        </div>
+        <div id="body-home">
+            @RenderBody()
+        </div>
+        <div style="left:35px; bottom: 0px; position: relative; color:#B91D07"><small> ©Dirk Rozich Illustration, LLC</small></div>
+    </div>
+    <script>
+        $(function () {
+            $('#slides').slides({
+                play: 5000,
+                pause: 1500,
+                fadeSpeed: 250,
+                slideSpeed: 0,
+                effect: 'fade',
+                hoverPause: true,
+                preload: false,
+                preloadImage: '/content/fancybox_loading.gif',
+                animationStart: function (current) {
+                    $('.caption').animate({
+                        bottom: -35
+                    }, 100);
+                    if (window.console && console.log) {
+                        // example return of current slide number
+                        console.log('animationStart on slide: ', current);
+                    };
+                },
+                animationComplete: function (current) {
+                    $('.caption').animate({
+                        bottom: 0
+                    }, 200);
+                    if (window.console && console.log) {
+                        // example return of current slide number
+                        console.log('animationComplete on slide: ', current);
+                    };
+                },
+                slidesLoaded: function () {
+                    $('.caption').animate({
+                        bottom: 0
+                    }, 200);
+                }
+            });
+        });
+    </script>
+    
+</body>
+</html>
